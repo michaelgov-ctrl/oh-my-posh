@@ -15,7 +15,7 @@ SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
 # Prompt
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/config.toml)"
 
 # Use modern completion system
 autoload -Uz compinit
